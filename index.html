@@ -16,5 +16,28 @@
     <script src="js/scripts.js"></script>
     <title>Which Character Are You?</title>
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <h1>Which Character Are You?</h1>
+      <form>
+        <label for="color">What is your favorite color?</label>
+        <select class="form-control" id="color">
+          <option value="red">Red</option>
+          <option value="blue">Blue</option>
+          <option value="green">Green</option>
+          <option value="yellow">Yellow</option>
+        </select>
+        <label for="Animal">Are you a dog or cat person?</label>
+        <select class="form-control" name="animal" id="animal">
+          <option value="dog">Dog</option>
+          <option value="cat">Cat</option>
+        </select>
+        <button type="submit" class="btn-secondary btn">Submit</button>
+      </form>
+      <div id="result">
+        <h2></h2>
+        <img />
+      </div>
+    </div>
+  </body>
 </html>
